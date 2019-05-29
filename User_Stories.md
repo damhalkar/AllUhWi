@@ -12,11 +12,17 @@
 
 <h3>Creator</h3>
 <ul>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
-<li></li>
+<li>As a creator, I want to upload my work, so it is displayed for readers to easily enjoy.</li>
+<li>As a creator, I want a simple step-by-step guide to becoming a creator, so I can provide the correct information needed.</li>
+<li>As a creator, I would like to see stories from other creators, so I can get a true understanding of the company’s message or goal.</li>
+<li>As a creator, I would like a link to download the app, so I can have mobile access.</li>
+</ul>
+
+<h3>Developer</h3>
+<ul>
+<li>As a developer, I would like to create a scaffolding of files which would describe the layout of the project.</li>
+<li>As a developer, I want to use event listeners in order to get user-submitted form data.</li>
+<li>As a developer, I want to utilise local storage, so I can store the information submitted by the creator.</li>
+<li>As a developer, I want to utilise object constructors, so that I can implement a carousel or slider for each comic book.</li>
+<li>As a developer, I would like my code to be dry and well laid out, so it would be easier to collaborate with my colleagues.</li>
 </ul>
