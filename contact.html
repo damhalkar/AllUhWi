@@ -30,13 +30,18 @@
       <div>
         <form>
           <label for="firstname">FIRST NAME</label>
-          <input type="text" name="name" value="Sarah" />
+          <input type="text" name="firstname" placeholder="Sarah" />
           <label for="lastname">LAST NAME</label>
-          <input type="text" name="name" value="Connor" />
+          <input type="text" name="lastname" placeholder="Connor" />
           <label for="emailaddress">EMAIL ADDRESS</label>
-          <input type="email" name="email" value="sarahconnor@gmail.com" />
+          <input
+            type="email"
+            name="emailaddress"
+            placeholder="sarahconnor@gmail.com"
+            required
+          />
           <label for="message">MESSAGE</label>
-          <textarea rows="5" cols="75">what’s up?</textarea>
+          <textarea rows="5" cols="75" placeholder="what’s up?"></textarea>
           <input type="submit" value="SEND MESSAGE" />
         </form>
       </div>
