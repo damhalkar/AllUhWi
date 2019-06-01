@@ -242,10 +242,45 @@ button.create {
     font-family: 'Gill Sans';
     display: block;
 }
-/* 
-div.create-contain {
-    
-} */
+
+section.form-one {
+    padding: 10px 0 0 0;
+    background-color: #383838;
+    color: white;
+    font-family: 'Gotham-bold';
+}
+
+.form-creator {
+    color: #F58400;
+}
+
+h1.form-creator {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    color: #383838;
+    font-family: 'Gotham-bold';
+    font-size: 37px;
+}
+
+p.form-creator {
+    color: white;
+    font-family: 'Gill Sans';
+    font-size: 16px;
+    width: 260px;
+    word-wrap: normal;
+    line-height: 1.6;
+    margin: 15px 0 15px 0;
+}
+
+legend.form-heading {
+    font-size: 30px;
+    margin: 0 0 25px 0;
+}
+
+div.sub {
+    width: 50%;
+    float: left;
+}
 
 .clearfix::after {
     content: "";
