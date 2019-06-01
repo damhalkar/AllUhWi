@@ -34,26 +34,26 @@
               image should be JPEG or PNG, 1920x1080px and no larger than 2MB.
             </p>
             <label for="comic-title" class="form-creator">*COMIC BOOK TITLE</label>
-            <input type="text" name="comic-title" size="30" required />
-            <label for="genres" class="form-creator">*GENRE</label>
-            <select name="genres">
+            <input type="text" name="comic-title" size="30" required class="form-creator" />
+            <label for="genres" class="form-creator">*GENRE 1</label>
+            <select name="genres" class="form-creator">
               <option value="action">Action</option>
               <option value="drama">Drama</option>
               <option value="thriller">Thriller</option>
             </select>
-            <label for="genres2" class="form-creator">GENRE 2 (OPTIONAL)</label>
-            <select name="genres2">
+            <label for="genres2" class="form-creator-two">GENRE 2 (OPTIONAL)</label>
+            <select name="genres2" class="form-creator">
               <option value="action">Action</option>
               <option value="drama">Drama</option>
               <option value="thriller">Thriller</option>
             </select>
             <label for="rating" class="form-creator">*SUGGESTED RATING</label>
-            <select name="rating">
+            <select name="rating" class="form-creator">
               <option value="M">M</option>
               <option value="pg13">PG-13</option>
             </select>
             <label for="summary" class="form-creator">*COMIC SUMMARY</label>
-            <textarea rows="8" cols="50"></textarea>
+            <textarea rows="8" cols="50" class="form-creator"></textarea>
             <label for="type" class="form-creator">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
             <input type="radio" name="type" value="oneshot" /> One Shot
             <input type="radio" name="type" value="series" /> Series
@@ -86,19 +86,16 @@
             <input type="text" name="cover-artist" />
             <label for="letterer" class="form-creator">LETTERER</label>
             <input type="text" name="letterer" />
-<<<<<<< HEAD
             <label for="legal-right" class="form-creator">*DO YOU OWN AND/OR HAVE THE LEGAL RIGHT TO PUBLISH THIS TITLE ON THE ALLUHWI COMICS PLATFORM?</label>
             <input type="radio" name="legal-right" value="yes"/> YES
             <input type="radio" name="legal-right" value="no"/> NO
             </div>
-=======
             <label for="legal-right"
               >*DO YOU OWN AND/OR HAVE THE LEGAL RIGHT TO PUBLISH THIS TITLE ON
               THE ALLUHWI COMICS PLATFORM?</label
             >
             <input type="radio" name="legal-right" value="yes" /> YES
             <input type="radio" name="legal-right" value="no" /> NO
->>>>>>> 401531f0ff71cce88ba363cff3588826ee36322c
           </fieldset>
           <input type="submit" value="Submit" />
         </form>

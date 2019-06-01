@@ -282,6 +282,27 @@ div.sub {
     float: left;
 }
 
+input.form-creator {
+    display: block;
+    margin: 10px 0 10px 0;
+    padding: 0 100px 0 0;
+}
+
+select.form-creator {
+    display: block;
+}
+
+input.form-creator-two {
+    display: block;
+    margin: 10px 0 10px 0;
+    padding: 0 100px 0 0;
+}
+
+label.from-creator-two {
+    float: right;
+    border: 5px solid red;
+}
+
 .clearfix::after {
     content: "";
     clear: both;
