@@ -1,0 +1,289 @@
+
+@font-face {
+    font-family: 'Gill Sans-bold';
+    src: url('/fonts/Gill\ Sans\ Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill\ Sans.otf');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'Gotham-bold';
+    src: url('/fonts/GothamBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+
+@font-face {
+    font-family: 'Gotham Book';
+    src: url('/fonts/GothamBook.ttf');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+body {
+    width: 100%;
+}
+
+section.home {
+    margin: 0 0 40px 0;
+    background-image: url("/img/Alluhwi-Website-Background-1.png");
+}
+
+section.about {
+    padding: 0 28.22% 0 7.29%;
+    background-color: #454545;
+}
+
+section.private {
+    padding: 0 35.05% 0 7.29%;
+}
+
+section.terms {
+    padding: 0 35.05% 0 7.29%;
+}
+
+img.navi {
+    padding: 0 0 0 7.29%;
+    width: 180px;
+    height: 166px;
+    float: left;
+}
+
+img.footer {
+    width: 37.31px;
+    height: 37.31px;
+    margin: 10px 15px 25px 15px;
+}
+
+li.navi {
+    float: left;
+    padding: 40px 0 0 0;
+    margin: 25px 20px 20px 35px;
+    font-size: 1.5em;
+}
+
+a.navi {
+    color: #383838;
+    text-decoration: none;
+    font-family: 'Gotham-bold';
+}
+
+a.home {
+    color: #FFFFFF;
+}
+
+button.navi {
+    float: right;
+    background-color: #F58400;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 55px 55px 20px 35px;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 21px;
+    font-family: 'Gotham-bold';
+}
+
+nav {
+    border: 1px black solid;
+    margin: 0;
+}
+
+nav.about {
+    margin: 0;
+}
+
+nav.home {
+    border: none;
+}
+
+section div {
+    margin: 50px 0 0 50px;
+}
+
+h3.contact {
+    margin: 40px 0 0 0;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Gill Sans-bold';
+}
+
+h3.private {
+    font-family: 'Gill Sans-bold';
+    margin: 50px 0 20px 0;
+}
+
+p.contact {
+    margin: 20px 0 180px 0;
+}
+
+p.terms {
+    margin: 20px 0 20px 0;
+}
+
+p.private-info {
+    margin: 10px 0 10px 0;
+}
+
+p.about {
+    color: white;
+    font-size: 26px;
+    font-family: 'Gill Sans';
+    margin: 20px 0 0 0;
+    padding: 0 0 30px 0;
+}
+
+p.about-last {
+    padding: 0 0 206.39px 0;
+}
+
+p.create {
+    font-family: 'Gotham Book';
+    font-size: 30px;
+    padding: 0 0 0 56px;
+    margin: 0 0 20px 0;
+    word-wrap: normal;
+    width: 45.05%px;
+    line-height: 1.2;
+}
+
+h1.terms {
+    margin: 0 0 25px 0;
+    font-size: 57px;
+    font-family: 'Gotham-bold';
+    color: #383838;
+}
+
+h1.private {
+    margin: 0 0 25px 0;
+    font-family: 'Gotham-bold';
+    font-size: 57px;
+    color: #383838;
+}
+
+h1.about {
+    padding: 75px 0 35px 0;
+    color: #FC941A;
+    font-family: 'Gotham-bold';
+    font-size: 57px;
+    margin: 0;
+}
+
+h1.create {
+    color: #FC941A;
+    font-family: 'Gotham-bold';
+    font-size: 49px;
+    padding: 0 0 0 56px;
+    margin: 0 0 20px 0;
+}
+
+input.create {
+    margin: 0 0 0 56px;
+    font-size: 1.5em;
+    padding: 0 100px 0 0;
+}
+
+footer.footer {
+    margin: 50px 0 0 0;
+    padding: 30px 0 20px 0;
+    background-color: #292929;
+    text-align: center;
+}
+
+a.footer {
+    color: white;
+    text-decoration: none;
+    margin: 0 5px 0 5px;
+    font-family: 'Gotham-bold';
+}
+
+p.footer {
+    margin: 25px 0 30px 0;
+    color: #F58400;
+    font-family: 'Gill Sans';
+}
+
+p.private {
+    padding: 0 0 0 56px;
+    margin: 20px 0 20px 0;
+}
+
+footer.about {
+    margin: 0;
+    padding: 0 0 40px 0;
+}
+
+div.create{
+    background-color: #333333;
+    color: white;
+    padding: 0 0 45px 0;
+    margin: 0 0 0 45.05%;
+}
+
+button.create {
+    background-color: #F58400;
+    color: white;
+    padding: 10px 20px 10px 20px;
+    margin: 20px 55px 0px 56px;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 21px;
+    font-family: 'Gill Sans';
+    display: block;
+}
+
+section.form-one {
+    padding: 10px 0 0 0;
+    background-color: #383838;
+    color: white;
+    font-family: 'Gotham-bold';
+}
+
+.form-creator {
+    color: #F58400;
+}
+
+h1.form-creator {
+    margin: 20px 0 20px 0;
+    text-align: center;
+    color: #383838;
+    font-family: 'Gotham-bold';
+    font-size: 37px;
+}
+
+p.form-creator {
+    color: white;
+    font-family: 'Gill Sans';
+    font-size: 16px;
+    width: 260px;
+    word-wrap: normal;
+    line-height: 1.6;
+    margin: 15px 0 15px 0;
+}
+
+legend.form-heading {
+    font-size: 30px;
+    margin: 0 0 25px 0;
+}
+
+div.sub {
+    width: 50%;
+    float: left;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}

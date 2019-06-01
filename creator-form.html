@@ -9,87 +9,113 @@
     <title>Become a Creator!</title>
   </head>
   <body>
-    <header>
-      <nav>
-        <ul>
-          <li><img src="img/All-Uh-Wi-Logo.png" /></li>
-          <li><a href="index.html">HOME</a></li>
-          <li><a href="about.html">ABOUT</a></li>
-          <li><a href="contact.html">CONTACT</a></li>
-        </ul>
-      </nav>
-    </header>
-    <section>
-      <h1>PLEASE FILL OUT THE FORM BELOW</h1>
+      <header class="clearfix">
+          <nav class="clearfix">
+            <ul>
+              <li><img src="img/All-Uh-Wi-Logo.png" class="navi" /></li>
+              <li class="navi"><a href="index.html" class="navi">HOME</a></li>
+              <li class="navi"><a href="about.html" class="navi">ABOUT</a></li>
+              <li class="navi"><a href="contact.html" class="navi">CONTACT</a></li>
+            </ul>
+          </nav>
+        </header>
+        <h1 class="form-creator">PLEASE FILL OUT THE FORM BELOW</h1>
+    <section class="form-one">
+     
       <div>
         <form>
           <fieldset>
-            <legend>1. COMIC INFORMATION</legend>
-            <img src="" />
-            <!-- <input type="image" /> -->
-            <p>
+            <div class="sub">
+            <legend class="form-heading">1. COMIC INFORMATION</legend>
+            <img src="https://placehold.it/265x379/FFF" />
+            <p class="form-creator">
               Please upload the cover for this title here (Include option to
               upload or if possible, drag and drop the image). For best results
               image should be JPEG or PNG, 1920x1080px and no larger than 2MB.
             </p>
-            <label for="comic-title">*COMIC BOOK TITLE</label>
+            <label for="comic-title" class="form-creator">*COMIC BOOK TITLE</label>
             <input type="text" name="comic-title" size="30" required />
-            <label for="genres">*GENRE</label>
+            <label for="genres" class="form-creator">*GENRE</label>
             <select name="genres">
               <option value="action">Action</option>
               <option value="drama">Drama</option>
               <option value="thriller">Thriller</option>
             </select>
-            <label for="genres2">GENRE 2 (OPTIONAL)</label>
+            <label for="genres2" class="form-creator">GENRE 2 (OPTIONAL)</label>
             <select name="genres2">
               <option value="action">Action</option>
               <option value="drama">Drama</option>
               <option value="thriller">Thriller</option>
             </select>
-            <label for="rating">*SUGGESTED RATING</label>
+            <label for="rating" class="form-creator">*SUGGESTED RATING</label>
             <select name="rating">
               <option value="M">M</option>
               <option value="pg13">PG-13</option>
             </select>
-            <label for="summary">*COMIC SUMMARY</label>
+            <label for="summary" class="form-creator">*COMIC SUMMARY</label>
             <textarea rows="8" cols="50"></textarea>
-            <label for="type">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
+            <label for="type" class="form-creator">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
             <input type="radio" name="type" value="oneshot" /> One Shot
             <input type="radio" name="type" value="series" /> Series
+          </div>
           </fieldset>
           <fieldset>
-            <legend>2. COMIC INFORMATION</legend>
-            <label for="name">*CONTACT</label>
+            <div class="sub">
+            <legend class="form-heading"></legend>>2. COMIC INFORMATION</legend>
+            <label for="name"  class="form-creator">*CONTACT NAME</label>
             <input type="text" name="name" />
+           
+
             <label for="email">*CONTACT EMAIL</label>
             <input type="email" name="email" />
             <label for="creator1">*CREATOR 1</label>
+            
             <input type="text" name="creator1" />
-            <label for="creator2">*CREATOR 2 (OPTIONAL)</label>
+            <label for="creator2" class="form-creator">*CREATOR 2 (OPTIONAL)</label>
             <input type="text" name="creator2" />
-            <label for="writer">*WRITER</label>
+            <label for="writer" class="form-creator">*WRITER</label>
             <input type="text" name="writer" />
-            <label for="penciler">*PENCILER</label>
+            <label for="penciler" class="form-creator">*PENCILER</label>
             <input type="text" name="penciler" />
-            <h2>ADDITIONAL INFORMATION</h2>
-            <label for="colourist">COLOURIST</label>
+            <h2 class="form-heading"></h2>>ADDITIONAL INFORMATION</h2>
+            <label for="colourist" class="form-creator">COLOURIST</label>
             <input type="text" name="colourist" />
-            <label for="inker">INKER</label>
+            <label for="inker" class="form-creator">INKER</label>
             <input type="text" name="inker" />
-            <label for="cover-artist">COVER ARTIST</label>
+            <label for="cover-artist" class="form-creator">COVER ARTIST</label>
             <input type="text" name="cover-artist" />
-            <label for="letterer">LETTERER</label>
+            <label for="letterer" class="form-creator">LETTERER</label>
             <input type="text" name="letterer" />
+
+            <label for="legal-right" class="form-creator">*DO YOU OWN AND/OR HAVE THE LEGAL RIGHT TO PUBLISH THIS TITLE ON THE ALLUHWI COMICS PLATFORM?</label>
+            <input type="radio" name="legal-right" value="yes"/> YES
+            <input type="radio" name="legal-right" value="no"/> NO
+            </div>
+        
             <label for="legal-right"
               >*DO YOU OWN AND/OR HAVE THE LEGAL RIGHT TO PUBLISH THIS TITLE ON
               THE ALLUHWI COMICS PLATFORM?</label
             >
             <input type="radio" name="legal-right" value="yes" /> YES
             <input type="radio" name="legal-right" value="no" /> NO
+        
           </fieldset>
           <input type="submit" value="Submit" />
         </form>
       </div>
     </section>
+    <footer class="footer">
+        <div>
+          <a target="_blank" href="#"><img src="img/instagram.png" class="footer"/></a>
+          <a target="_blank" href="#"><img src="img/facebook-logo.png" class="footer" /></a>
+          <a target="_blank" href="#"><img src="img/youtube.png" class="footer" /></a>
+        </div>
+        <div>
+          <a href="contact.html" class="footer">Contact Us&nbsp;&nbsp;|</a>
+          <a href="privacy.html" class="footer">Privacy&nbsp;&nbsp;|</a>
+          <a href="terms.html" class="footer">Terms</a>
+        </div>
+        <p class="footer">2019 Bolt From The Blue Entertainment, LLC</p>
+      </footer>
   </body>
 </html>
