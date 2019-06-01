@@ -1,3 +1,26 @@
+
+@font-face {
+    font-family: 'Gill Sans-bold';
+    src: url('/fonts/Gill\ Sans\ Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+
+@font-face {
+    font-family: 'Gill Sans';
+    src: url('/fonts/Gill\ Sans.otf');
+    font-weight: normal;
+    font-style: normal;
+} 
+
+@font-face {
+    font-family: 'Gotham-bold';
+    src: url('/fonts/GothamBold.ttf');
+    font-weight: normal;
+    font-style: normal;
+} 
+
 body {
     width: 100%;
 }
@@ -24,6 +47,7 @@ li.navi {
 a.navi {
     color: #383838;
     text-decoration: none;
+    font-family: 'Gotham-bold';
 }
 
 button.navi {
@@ -36,6 +60,7 @@ button.navi {
     text-align: center;
     border-radius: 4px;
     font-size: 21px;
+    font-family: 'Gotham-bold';
 }
 
 nav {
@@ -51,6 +76,7 @@ h3.contact {
     margin: 40px 0 0 0;
     font-weight: bold;
     font-size: 1.1em;
+    font-family: 'Gill Sans-bold';
 }
 
 p.contact {
@@ -64,7 +90,9 @@ p.terms {
 h1.terms {
     margin: 0 0 25px 0;
     font-weight: bold;
-    font-size: 2.5em;
+    font-size: 57px;
+    font-family: 'Gotham-bold';
+    color: #383838;
 }
 
 footer.footer {
@@ -78,12 +106,13 @@ a.footer {
     color: white;
     text-decoration: none;
     margin: 0 5px 0 5px;
-    font-weight: bold;
+    font-family: 'Gotham-bold';
 }
 
 p.footer {
     margin: 25px 0 30px 0;
     color: #F58400;
+    font-family: 'Gill Sans';
 }
 
 .clearfix::after {
