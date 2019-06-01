@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link href="css/reset.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" />
+    <title>Become a Creator!</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><img src="img/All-Uh-Wi-Logo.png" /></li>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="about.html">ABOUT</a></li>
+          <li><a href="contact.html">CONTACT</a></li>
+        </ul>
+      </nav>
+    </header>
+    <section>
+      <h1>PLEASE FILL OUT THE FORM BELOW</h1>
+      <div>
+        <form>
+          <fieldset>
+            <legend>1. COMIC INFORMATION</legend>
+            <img src="" />
+            <!-- <input type="image" /> -->
+            <p>
+              Please upload the cover for this title here (Include option to
+              upload or if possible, drag and drop the image). For best results
+              image should be JPEG or PNG, 1920x1080px and no larger than 2MB.
+            </p>
+            <label for="comic-title">*COMIC BOOK TITLE</label>
+            <input type="text" name="comic-title" size="30" required />
+            <label for="genres">*GENRE</label>
+            <select name="genres">
+              <option value="action">Action</option>
+              <option value="drama">Drama</option>
+              <option value="thriller">Thriller</option>
+            </select>
+            <label for="genres2">GENRE 2 (OPTIONAL)</label>
+            <select name="genres2">
+              <option value="action">Action</option>
+              <option value="drama">Drama</option>
+              <option value="thriller">Thriller</option>
+            </select>
+            <label for="rating">*SUGGESTED RATING</label>
+            <select name="rating">
+              <option value="M">M</option>
+              <option value="pg13">PG-13</option>
+            </select>
+            <label for="summary">*COMIC SUMMARY</label>
+            <textarea rows="8" cols="50"></textarea>
+            <label for="type">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
+            <input type="radio" name="type" value="oneshot" /> One Shot
+            <input type="radio" name="type" value="series" /> Series
+          </fieldset>
+          <fieldset>
+            <legend>2. COMIC INFORMATION</legend>
+            <label for="name">*CONTACT</label>
+            <input type="text" name="name" />
+            <label for="email">*CONTACT EMAIL</label>
+            <input type="email" name="email" />
+            <label for="creator1">*CREATOR 1</label>
+            <input type="text" name="creator1" />
+            <label for="creator2">*CREATOR 2 (OPTIONAL)</label>
+            <input type="text" name="creator2" />
+            <label for="writer">*WRITER</label>
+            <input type="text" name="writer" />
+            <label for="penciler">*PENCILER</label>
+            <input type="text" name="penciler" />
+            <h2>ADDITIONAL INFORMATION</h2>
+            <label for="colourist">COLOURIST</label>
+            <input type="text" name="colourist" />
+            <label for="inker">INKER</label>
+            <input type="text" name="inker" />
+            <label for="cover-artist">COVER ARTIST</label>
+            <input type="text" name="cover-artist" />
+            <label for="letterer">LETTERER</label>
+            <input type="text" name="letterer" />
+            <label for="legal-right"
+              >*DO YOU OWN AND/OR HAVE THE LEGAL RIGHT TO PUBLISH THIS TITLE ON
+              THE ALLUHWI COMICS PLATFORM?</label
+            >
+            <input type="radio" name="legal-right" value="yes" /> YES
+            <input type="radio" name="legal-right" value="no" /> NO
+          </fieldset>
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </section>
+  </body>
+</html>
