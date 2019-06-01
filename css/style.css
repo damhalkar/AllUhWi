@@ -25,7 +25,26 @@ body {
     width: 100%;
 }
 
+section.home {
+    margin: 0 0 40px 0;
+    background-image: url("/img/Alluhwi-Website-Background-1.png");
+}
+
+section.about {
+    padding: 0 28.22% 0 7.29%;
+    background-color: #454545;
+}
+
+section.private {
+    padding: 0 35.05% 0 7.29%;
+}
+
+section.terms {
+    padding: 0 35.05% 0 7.29%;
+}
+
 img.navi {
+    padding: 0 0 0 7.29%;
     width: 180px;
     height: 166px;
     float: left;
@@ -50,6 +69,10 @@ a.navi {
     font-family: 'Gotham-bold';
 }
 
+a.home {
+    color: #FFFFFF;
+}
+
 button.navi {
     float: right;
     background-color: #F58400;
@@ -65,7 +88,15 @@ button.navi {
 
 nav {
     border: 1px black solid;
-    margin: 0 0 50px 0;
+    margin: 0;
+}
+
+nav.about {
+    margin: 0;
+}
+
+nav.home {
+    border: none;
 }
 
 section div {
@@ -79,6 +110,11 @@ h3.contact {
     font-family: 'Gill Sans-bold';
 }
 
+h3.private {
+    font-family: 'Gill Sans-bold';
+    margin: 50px 0 20px 0;
+}
+
 p.contact {
     margin: 20px 0 180px 0;
 }
@@ -87,12 +123,42 @@ p.terms {
     margin: 20px 0 20px 0;
 }
 
+p.private-info {
+    margin: 10px 0 10px 0;
+}
+
+p.about {
+    color: white;
+    font-size: 26px;
+    font-family: 'Gill Sans';
+    margin: 20px 0 0 0;
+    padding: 0 0 30px 0;
+}
+
+p.about-last {
+    padding: 0 0 206.39px 0;
+}
+
 h1.terms {
     margin: 0 0 25px 0;
-    font-weight: bold;
     font-size: 57px;
     font-family: 'Gotham-bold';
     color: #383838;
+}
+
+h1.private {
+    margin: 0 0 25px 0;
+    font-family: 'Gotham-bold';
+    font-size: 57px;
+    color: #383838;
+}
+
+h1.about {
+    padding: 75px 0 35px 0;
+    color: #FC941A;
+    font-family: 'Gotham-bold';
+    font-size: 57px;
+    margin: 0;
 }
 
 footer.footer {
@@ -113,6 +179,15 @@ p.footer {
     margin: 25px 0 30px 0;
     color: #F58400;
     font-family: 'Gill Sans';
+}
+
+p.private {
+    margin: 20px 0 20px 0;
+}
+
+footer.about {
+    margin: 0;
+    padding: 0 0 40px 0;
 }
 
 .clearfix::after {
