@@ -35,7 +35,7 @@ body {
 
 section.home {
     margin: 0 0 40px 0;
-    background-image: url("/img/Alluhwi-Website-Background-1.png");
+    background-image: url("../img/Alluhwi-Website-Background-1.png");
 }
 
 section.about {
