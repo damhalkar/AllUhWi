@@ -1,7 +1,7 @@
 
 @font-face {
     font-family: 'Gill Sans-bold';
-    src: url('/fonts/Gill\ Sans\ Bold.otf');
+    src: url('../fonts/Gill\ Sans\ Bold.otf');
     font-weight: normal;
     font-style: normal;
 } 
@@ -9,14 +9,14 @@
 
 @font-face {
     font-family: 'Gill Sans';
-    src: url('/fonts/Gill\ Sans.otf');
+    src: url('../fonts/Gill\ Sans.otf');
     font-weight: normal;
     font-style: normal;
 } 
 
 @font-face {
     font-family: 'Gotham-bold';
-    src: url('/fonts/GothamBold.ttf');
+    src: url('../fonts/GothamBold.ttf');
     font-weight: normal;
     font-style: normal;
 } 
@@ -24,7 +24,7 @@
 
 @font-face {
     font-family: 'Gotham Book';
-    src: url('/fonts/GothamBook.ttf');
+    src: url('../fonts/GothamBook.ttf');
     font-weight: normal;
     font-style: normal;
 } 
@@ -35,7 +35,8 @@ body {
 
 section.home {
     margin: 0 0 40px 0;
-    background-image: url("/img/Alluhwi-Website-Background-1.png");
+    background-image: url("../img/Alluhwi-Website-Background-1.png");
+    border: 5px solid orange;
 }
 
 section.about {
