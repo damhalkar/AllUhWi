@@ -29,12 +29,26 @@
     font-style: normal;
 } 
 
+@font-face {
+    font-family: 'Montserrat-bold';
+    src: url('../fonts/Montserrat-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'GillSans-semibold';
+    src: url('../fonts/GillSans\ Condensed\ Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
 body {
     width: 100%;
 }
 
 section.home {
-    margin: 0 0 40px 0;
     background-image: url("../img/Alluhwi-Website-Background-1.png");
 }
 
@@ -155,6 +169,55 @@ p.create {
     word-wrap: normal;
     width: 45.05%px;
     line-height: 1.2;
+}
+
+iframe.home {
+    width: 50%;
+    float: left;
+    padding: 75px 0 75px 0;
+    margin: 0 75px 75px 75px;
+}
+
+h1.home-frame {
+    padding: 75px 0 0 0;
+    color: #F7F7F7;
+    font-family: 'Montserrat-bold';
+    font-size: 27px;
+    margin: 0 0 25px 0;
+}
+
+p.home-frame {
+    color: #FFFFFF;
+    font-family: 'Gill Sans';
+    font-size: 25px;
+}
+
+button.home-frame {
+    color: white;
+    background-color: #383838;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 20px;
+    display: block;
+    padding: 20px;
+    margin: 20px 0 10px 0;
+}
+
+section.mobile {
+    background-color: #333333;
+    color: white;
+    font-family: 'GillSans-semibold';
+    font-size: 30px;
+    width: 100%;
+    text-align: center;
+    padding: 0 0 62.50px 0;
+}
+
+img.mobile {
+    height: 100px;
+    width: 258px;
+    padding: 10px 0 0 0;
 }
 
 h1.terms {
