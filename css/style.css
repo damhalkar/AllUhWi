@@ -322,6 +322,29 @@ h1.create {
     margin: 0 0 20px 0;
 }
 
+h1.contact {
+    width: 50%;
+    float: left;
+    font-family: 'Gotham-bold';
+    font-size: 67px;
+    color: #F58400;
+    margin: 0 10px 20px 30px;
+}
+
+p.contact-us {
+    word-wrap: break-word;
+    font-family: 'Gill Sans';
+    line-height: 1.6;
+    float: left;
+    font-size: 25px;
+    width: 50%;
+    margin: 0 0 0 30px;
+}
+
+fieldset.contact-us {
+    margin: 0 0 30px 0;
+}
+
 input.create {
     margin: 0 0 0 56px;
     font-size: 1.5em;
@@ -364,6 +387,16 @@ div.create{
     margin: 0 0 0 45.05%;
 }
 
+section.create-contain {
+    background-image: url("../img/Alluhwi\ Comics\ Cat-girl.jpg");
+}
+
+section.contact {
+    background-color: #383838;
+    color: #FFFFFF;
+    padding: 75px 0 0 0;
+}
+
 button.create {
     background-color: #F58400;
     color: white;
@@ -374,6 +407,21 @@ button.create {
     border-radius: 4px;
     font-size: 21px;
     font-family: 'Gill Sans';
+    display: block;
+}
+
+button.contact {
+    background-color: #F58400;
+    color: white;
+    align-self: right;
+    padding: 10px 5px 10px 5px;
+    float: right;
+    margin: 20px 52px 25px 0;
+    border: none;
+    text-align: center;
+    border-radius: 4px;
+    font-size: 17px;
+    font-family: 'Gotham-bold';
     display: block;
 }
 
@@ -420,6 +468,22 @@ input.form-creator {
     display: block;
     margin: 10px 0 10px 0;
     padding: 0 100px 0 0;
+}
+
+input.contact {
+    display: block;
+    margin: 15px 0 15px 0;
+    padding: 5px 400px 5px 0;
+    font-family: 'Gill Sans';
+}
+
+textarea.contact {
+    margin: 15px 0 0 0;
+}
+
+label.contact {
+    font-family: 'Gotham-bold';
+    font-size: 19px;
 }
 
 select.form-creator {
