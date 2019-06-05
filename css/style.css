@@ -28,19 +28,19 @@
 }
 
 @font-face {
-    font-family: 'GillSans-semibold';
-    src: url('../fonts/GillSans\ Condensed\ Bold.otf');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
     font-family: 'GillSans-bold';
     src: url('../fonts/Gill\ Sans\ Bold.otf');
     font-weight: normal;
     font-style: normal;
 }
 
+@font-face {
+    /* Substitute for Gill-sans semi-bold */
+    font-family: 'Lato-bold'; 
+    src: url('../fonts/Lato-Bold.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
 body {
     width: 100%;
 }
