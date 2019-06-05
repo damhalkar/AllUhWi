@@ -479,10 +479,13 @@ input.contact {
     margin: 15px 0 15px 0;
     padding: 5px 400px 5px 0;
     font-family: 'Gill Sans';
+    border-radius: 5px;
 }
 
 textarea.contact {
     margin: 15px 0 0 0;
+    border-radius: 5px;
+    width: 532px;
 }
 
 label.contact {
