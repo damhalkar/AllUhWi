@@ -32,7 +32,7 @@
         Alluhwi Comics is the first mobile platform for Caribbean comic books.
         It’s built on the idea that Caribbean comics should be accessible and
         affordable to more fans in region and across the globe.
-        <button type="button" class="home-frame">Become A Creator</button>
+        <a href="creator-form.html" class="home-frame"><button type="button" class="home-frame">Become A Creator</button></a>
       </p>
     </section>
     <section>
@@ -45,7 +45,9 @@
 
   </section>
 
-  <section class="carousel">
+  <button onclick="myFunction()" class="hide">Hide/Show</button>
+  <div hidden id="hide">
+    <section class="carousel">
     <div>
         <h1 class="carousel">CHECK OUT SOME OF OUR DAY ONE TITLES FROM AMAZING CREATORS</h1>
         <div id="tangled-web" class="titles">
@@ -120,29 +122,42 @@
             kids had to use their imagination and whatever was available around
             them to find fun and entertainment.
           </p>
-          <button type="button">Become A Creator</button>
+          <a href="creator-form.html"><button type="button" class="home-frame">Become A Creator</button></a>
         </div>
       </section>
+      
+      <section class="beta">
+          <h1 class="beta">BECOME A BETA TESTER TODAY!</h1>
+          <a href="https://play.google.com/store/apps/details?id=com.logicslide.android.alluhwi"><img
+            src="img/google-play-badge.png" alt="Google Play Badge" class="beta"></a>
+          <img src="img/smartphone-app.png" class="beta-large">
+      </section></div>
     </div>
     
-  <section class="beta">
-      <h1 class="beta">BECOME A BETA TESTER TODAY!</h1>
-      <a href="https://play.google.com/store/apps/details?id=com.logicslide.android.alluhwi"><img
-        src="img/google-play-badge.png" alt="Google Play Badge" class="beta"></a>
-      <img src="img/smartphone-app.png" class="beta-large">
-  </section>
-  <footer class="footer">
+  
+  
+  <footer class="foot">
     <div>
-      <a target="_blank" href="#"><img src="img/instagram.png" class="footer" /></a>
-      <a target="_blank" href="#"><img src="img/facebook-logo.png" class="footer" /></a>
-      <a target="_blank" href="#"><img src="img/youtube.png" class="footer" /></a>
+      <a target="_blank" href="https://www.instagram.com/alluhwicomics/"><img src="img/instagram.png" class="foot" /></a>
+      <a target="_blank" href="https://www.facebook.com/alluhwicomics/"><img src="img/facebook-logo.png" class="foot" /></a>
+      <a target="_blank" href="https://youtu.be/M3-YzktpoY8"><img src="img/youtube.png" class="foot" /></a>
     </div>
     <div>
-      <a href="contact.html" class="footer">Contact Us&nbsp;&nbsp;|</a>
-      <a href="privacy.html" class="footer">Privacy&nbsp;&nbsp;|</a>
-      <a href="terms.html" class="footer">Terms</a>
+      <a href="contact.html" class="foot">Contact Us&nbsp;&nbsp;|</a>
+      <a href="privacy.html" class="foot">Privacy&nbsp;&nbsp;|</a>
+      <a href="terms.html" class="foot">Terms</a>
     </div>
-    <p class="footer">2019 Bolt From The Blue Entertainment, LLC</p>
+    <p class="foot">2019 Bolt From The Blue Entertainment, LLC</p>
   </footer>
+  <script>
+    function myFunction() {
+      var hideContent = document.getElementById("hide");
+      if (hideContent.style.display === "none") {
+        hideContent.style.display = "block";
+      } else {
+        hideContent.style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>
