@@ -5,3 +5,4 @@
 
 <h3>Damien Griffith | https://github.com/dg-griff</h3>
 <h3>Halle Reckord | https://github.com/hallear</h3>
+<h3>Kara Hunte | https://github.com/Seylavie</h3>
