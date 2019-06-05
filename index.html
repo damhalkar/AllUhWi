@@ -32,7 +32,7 @@
         Alluhwi Comics is the first mobile platform for Caribbean comic books.
         It’s built on the idea that Caribbean comics should be accessible and
         affordable to more fans in region and across the globe.
-        <a href="creator-form.html"><button type="button" class="home-frame">Become A Creator</button></a>
+        <a href="creator-form.html" class="home-frame"><button type="button" class="home-frame">Become A Creator</button></a>
       </p>
     </section>
     <section>
@@ -45,7 +45,9 @@
 
   </section>
 
-  <section class="carousel">
+  <button onclick="myFunction()" class="hide">Hide/Show</button>
+  <div hidden id="hide">
+    <section class="carousel">
     <div>
         <h1 class="carousel">CHECK OUT SOME OF OUR DAY ONE TITLES FROM AMAZING CREATORS</h1>
         <div id="tangled-web" class="titles">
@@ -123,14 +125,17 @@
           <a href="creator-form.html"><button type="button" class="home-frame">Become A Creator</button></a>
         </div>
       </section>
+      
+      <section class="beta">
+          <h1 class="beta">BECOME A BETA TESTER TODAY!</h1>
+          <a href="https://play.google.com/store/apps/details?id=com.logicslide.android.alluhwi"><img
+            src="img/google-play-badge.png" alt="Google Play Badge" class="beta"></a>
+          <img src="img/smartphone-app.png" class="beta-large">
+      </section></div>
     </div>
     
-  <section class="beta">
-      <h1 class="beta">BECOME A BETA TESTER TODAY!</h1>
-      <a href="https://play.google.com/store/apps/details?id=com.logicslide.android.alluhwi"><img
-        src="img/google-play-badge.png" alt="Google Play Badge" class="beta"></a>
-      <img src="img/smartphone-app.png" class="beta-large">
-  </section>
+  
+  
   <footer class="foot">
     <div>
       <a target="_blank" href="https://www.instagram.com/alluhwicomics/"><img src="img/instagram.png" class="foot" /></a>
@@ -144,5 +149,15 @@
     </div>
     <p class="foot">2019 Bolt From The Blue Entertainment, LLC</p>
   </footer>
+  <script>
+    function myFunction() {
+      var hideContent = document.getElementById("hide");
+      if (hideContent.style.display === "none") {
+        hideContent.style.display = "block";
+      } else {
+        hideContent.style.display = "none";
+      }
+    }
+  </script>
 </body>
 </html>
