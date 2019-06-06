@@ -15,10 +15,15 @@ function handler(event) {
   // var information = saveInfo(event.target.contactInfo.information );
   console.log(event.target.firstname.value);
   //assign correct positions
-  //var firstname
-  //var lastname
-  //call saveInfo
-  saveInfo();
+  document.getElementById("firstname"); 
+  document.getElementById("lastname");
+  document.getElementById("email");
+  document.getElementById("message");
+  var firstname = event.target.firstname.value;
+  var lastname = event.target.lastname.value;
+  var email = event.target.email.value;
+  var message = event.target.message.value;
+  saveInfo(firstname, lastname, email, message);
 }
 
 function saveInfo(firstName, lastName, email, message) {
@@ -30,3 +35,5 @@ function saveInfo(firstName, lastName, email, message) {
   };
   localStorage.setItem("data", JSON.stringify(contactInfo));
 }
+//--------------------------------------------------------------
+
