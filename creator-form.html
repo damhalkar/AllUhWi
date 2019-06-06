@@ -23,7 +23,7 @@
     <section class="form-one">
      
       <div>
-        <form>
+        <form id="creator-form">
           <fieldset>
             <div class="sub">
             <legend class="form-heading">1. COMIC INFORMATION</legend>
@@ -33,72 +33,64 @@
               upload or if possible, drag and drop the image). For best results
               image should be JPEG or PNG, 1920x1080px and no larger than 2MB.
             </p>
-            <label for="comic-title" class="form-creator">*COMIC BOOK TITLE</label>
-            <input type="text" name="comic-title" size="30" required />
+            <label for="comicTitle" class="form-creator">*COMIC BOOK TITLE</label>
+            <input type="text" id="comic-title" name="comic-title" size="30" required />
             <label for="genres" class="form-creator">*GENRE</label>
-            <select name="genres">
+            <select id="genres" name="genres">
               <option value="action">Action</option>
               <option value="drama">Drama</option>
               <option value="thriller">Thriller</option>
             </select>
             <label for="genres2" class="form-creator">GENRE 2 (OPTIONAL)</label>
-            <select name="genres2">
+            <select id="genres2" name="genres2">
               <option value="action">Action</option>
               <option value="drama">Drama</option>
               <option value="thriller">Thriller</option>
             </select>
             <label for="rating" class="form-creator">*SUGGESTED RATING</label>
-            <select name="rating">
+            <select id="rating" name="rating">
               <option value="M">M</option>
               <option value="pg13">PG-13</option>
             </select>
             <label for="summary" class="form-creator">*COMIC SUMMARY</label>
-            <textarea rows="8" cols="50"></textarea>
+            <textarea id="summary" rows="8" cols="50"></textarea>
             <label for="type" class="form-creator">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
-            <input type="radio" name="type" value="oneshot" /> One Shot
-            <input type="radio" name="type" value="series" /> Series
+            <input type="radio" id="type" name="type" value="oneshot" /> One Shot
+            <input type="radio" id="type" name="type" value="series" /> Series
           </div>
           </fieldset>
           <fieldset>
             <div class="sub">
-            <legend class="form-heading"></legend>>2. COMIC INFORMATION</legend>
+            <legend class="form-heading">2. COMIC INFORMATION</legend>
             <label for="name"  class="form-creator">*CONTACT NAME</label>
-            <input type="text" name="name" />
+            <input type="text" id="name" name="name" />
            
 
             <label for="email">*CONTACT EMAIL</label>
-            <input type="email" name="email" />
+            <input type="email" id="email" name="email" />
             <label for="creator1">*CREATOR 1</label>
             
-            <input type="text" name="creator1" />
+            <input type="text" id="creator1" name="creator1" />
             <label for="creator2" class="form-creator">*CREATOR 2 (OPTIONAL)</label>
-            <input type="text" name="creator2" />
+            <input type="text" id="creator2" name="creator2" />
             <label for="writer" class="form-creator">*WRITER</label>
-            <input type="text" name="writer" />
+            <input type="text" id="writer" name="writer" />
             <label for="penciler" class="form-creator">*PENCILER</label>
-            <input type="text" name="penciler" />
+            <input type="text" id="penciler" name="penciler" />
             <h2 class="form-heading"></h2>>ADDITIONAL INFORMATION</h2>
             <label for="colourist" class="form-creator">COLOURIST</label>
-            <input type="text" name="colourist" />
+            <input type="text" id="colourist" name="colourist" />
             <label for="inker" class="form-creator">INKER</label>
-            <input type="text" name="inker" />
-            <label for="cover-artist" class="form-creator">COVER ARTIST</label>
-            <input type="text" name="cover-artist" />
+            <input type="text" id="inker" name="inker" />
+            <label for="coverArtist" class="form-creator">COVER ARTIST</label>
+            <input type="text" id="cover-artist" class name="cover-artist" />
             <label for="letterer" class="form-creator">LETTERER</label>
-            <input type="text" name="letterer" />
+            <input type="text" id="letterer" name="letterer" />
 
-            <label for="legal-right" class="form-creator">*DO YOU OWN AND/OR HAVE THE LEGAL RIGHT TO PUBLISH THIS TITLE ON THE ALLUHWI COMICS PLATFORM?</label>
-            <input type="radio" name="legal-right" value="yes"/> YES
-            <input type="radio" name="legal-right" value="no"/> NO
+            <label for="legalRight" class="form-creator">*DO YOU OWN AND/OR HAVE THE LEGAL RIGHT TO PUBLISH THIS TITLE ON THE ALLUHWI COMICS PLATFORM?</label>
+            <input type="radio" id="legalRight" name="legal-right" value="yes"/> YES
+            <input type="radio" id="legalRight" name="legal-right" value="no"/> NO
             </div>
-        
-            <label for="legal-right"
-              >*DO YOU OWN AND/OR HAVE THE LEGAL RIGHT TO PUBLISH THIS TITLE ON
-              THE ALLUHWI COMICS PLATFORM?</label
-            >
-            <input type="radio" name="legal-right" value="yes" /> YES
-            <input type="radio" name="legal-right" value="no" /> NO
-        
           </fieldset>
           <input type="submit" value="Submit" />
         </form>
