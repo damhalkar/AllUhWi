@@ -7,6 +7,25 @@
     <link href="css/reset.css" rel="stylesheet" />
     <link href="css/style.css" rel="stylesheet" />
     <title>Contact</title>
+
+    <!-- Links to favicon images -->
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="img/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="img/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/img/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
   </head>
   <body>
     <header class="clearfix">
@@ -17,50 +36,49 @@
           <li class="navi"><a href="about.html" class="navi">ABOUT</a></li>
           <li class="navi"><a href="contact.html" class="navi">CONTACT</a></li>
         </ul>
-        <button type="button" class="navi">Become A Creator</button>
+        <a href="creator-form.html"><button type="button" class="navi">Become A Creator</button></a>
       </nav>
     </header>
-    <section>
-      <div>
-        <h1>CONTACT US</h1>
-        <p>
-          Got a question? We’d love to hear from you. Send us a message and
+    <section class="contact clearfix">
+      
+        <h1 class="contact clearfix">CONTACT US</h1>
+        <p class="contact-us">
+          Got a question? We’d love you hear from you. Send us a message and
           we’ll respond as soon as possible
         </p>
-      </div>
-      <div>
-        <form>
-          <fieldset>
-            <label for="firstname">FIRST NAME</label>
-            <input type="text" name="firstname" placeholder="Sarah" />
-            <label for="lastname">LAST NAME</label>
-            <input type="text" name="lastname" placeholder="Connor" />
-            <label for="emailaddress">EMAIL ADDRESS</label>
+    
+          <form>
+          <fieldset class="contact-us">
+            <label for="firstname" class="contact">FIRST NAME</label>
+            <input type="text" name="firstname" placeholder="Sarah" class="contact" />
+            <label for="lastname" class="contact">LAST NAME</label>
+            <input type="text" name="lastname" placeholder="Connor" class="contact" />
+            <label for="emailaddress" class="contact">EMAIL ADDRESS</label>
             <input
               type="email"
               name="emailaddress"
               placeholder="sarahconnor@gmail.com"
+              class="contact"
               required
             />
-            <label for="message">MESSAGE</label>
-            <textarea rows="5" cols="75" placeholder="what’s up?"></textarea>
-            <input type="submit" value="SEND MESSAGE" />
+            <label for="message" class="contact">MESSAGE</label>
+            <textarea rows="5" cols="75" placeholder="what’s up?" class="contact"></textarea>
+            <button type="button" class="contact">Send Message</button>
           </fieldset>
         </form>
-      </div>
     </section>
-    <footer class="footer">
+    <footer class="foot">
       <div>
-        <a target="_blank" href="#"><img src="img/instagram.png" class="footer"/></a>
-        <a target="_blank" href="#"><img src="img/facebook-logo.png" class="footer" /></a>
-        <a target="_blank" href="#"><img src="img/youtube.png" class="footer" /></a>
+        <a target="_blank" href="https://www.instagram.com/alluhwicomics/"><img src="img/instagram.png" class="foot" /></a>
+        <a target="_blank" href="https://www.facebook.com/alluhwicomics/"><img src="img/facebook-logo.png" class="foot" /></a>
+        <a target="_blank" href="https://youtu.be/M3-YzktpoY8"><img src="img/youtube.png" class="foot" /></a>
       </div>
       <div>
-        <a href="contact.html" class="footer">Contact Us&nbsp;&nbsp;|</a>
-        <a href="privacy.html" class="footer">Privacy&nbsp;&nbsp;|</a>
-        <a href="terms.html" class="footer">Terms</a>
+        <a href="contact.html" class="foot">Contact Us&nbsp;&nbsp;|</a>
+        <a href="privacy.html" class="foot">Privacy&nbsp;&nbsp;|</a>
+        <a href="terms.html" class="foot">Terms</a>
       </div>
-      <p class="footer">2019 Bolt From The Blue Entertainment, LLC</p>
+      <p class="foot">2019 Bolt From The Blue Entertainment, LLC</p>
     </footer>
   </body>
 </html>
