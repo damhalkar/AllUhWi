@@ -41,8 +41,9 @@
     font-weight: normal;
     font-style: normal;
 }
+
 body {
-    width: 100%;
+    width: 1920px;
 }
 
 section.home {
@@ -286,6 +287,72 @@ section.mobile {
     padding: 0 0 62.50px 0;
 }
 
+section.creator-form {
+    background-color: #383838;
+    color: #F58400;
+    font-family: 'Gotham-bold';
+    font-size: 14px;
+    width: 1643px;
+    margin: 0 auto;
+}
+
+h1.creator-form {
+    color: #383838;
+    text-align: center;
+    font-family: 'Gotham-bold';
+    font-size: 37px;
+    padding: 30px 0 30px 0;
+}
+
+legend.creator-form {
+    color: #FFFFFF;
+    font-size: 32px;
+    padding: 25px 0 25px 35px;
+}
+
+legend.creator-form-two {
+    color: #FFFFFF;
+    font-size: 32px;
+    padding: 25px 0 25px 35px;
+}
+
+img.creator-form {
+    padding: 0 0 15px 35px;
+}
+
+p.creator-form {
+    padding: 0 0 0 35px;
+    color: white;
+    font-size: 16px;
+    width: 265px;
+    line-height: 1.6;
+}
+
+label.creator-form {
+    width: 50%;
+}
+
+label.creator-form-title {
+    border: 5px solid orange;
+}
+
+section.form-creator-one {
+    width: 47%;
+    padding: 0 0 0 35px;
+    float: left;
+}
+
+section.creator-form-two {
+    width: 47%;
+    float: right;
+    padding: 0 0 0 35px;
+}
+
+.creator-form-render {
+    display: block;
+    margin: 15px 0 15px 0;
+}
+
 img.mobile {
     height: 100px;
     width: 258px;
@@ -432,46 +499,8 @@ section.form-one {
     font-family: 'Gotham-bold';
 }
 
-.form-creator {
-    color: #F58400;
-}
-
 a.home-frame {
     text-decoration: none;
-}
-
-h1.form-creator {
-    margin: 20px 0 20px 0;
-    text-align: center;
-    color: #383838;
-    font-family: 'Gotham-bold';
-    font-size: 37px;
-}
-
-p.form-creator {
-    color: white;
-    font-family: 'Gill Sans';
-    font-size: 16px;
-    width: 260px;
-    word-wrap: normal;
-    line-height: 1.6;
-    margin: 15px 0 15px 0;
-}
-
-legend.form-heading {
-    font-size: 30px;
-    margin: 0 0 25px 0;
-}
-
-div.sub {
-    width: 50%;
-    float: left;
-}
-
-input.form-creator {
-    display: block;
-    margin: 10px 0 10px 0;
-    padding: 0 100px 0 0;
 }
 
 input.contact {
@@ -491,21 +520,6 @@ textarea.contact {
 label.contact {
     font-family: 'Gotham-bold';
     font-size: 19px;
-}
-
-select.form-creator {
-    display: block;
-}
-
-input.form-creator-two {
-    display: block;
-    margin: 10px 0 10px 0;
-    padding: 0 100px 0 0;
-}
-
-label.from-creator-two {
-    float: right;
-    border: 5px solid red;
 }
 
 .clearfix::after {
