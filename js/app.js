@@ -1,10 +1,4 @@
 "use strict!";
-//Step 1 Get info from form
-//a. document.getElement
-//b. eventListener
-//c. handler
-//Step 2 Convert data
-//Step 3 Save to local storage
 
 var button = document.getElementById("contactInfo");
 button.addEventListener("submit", handler);
@@ -30,9 +24,8 @@ function saveInfo(firstName, lastName, email, message) {
     first: firstName,
     last: lastName,
     email: email,
-    msg: message,
+    msg: message
   };
   localStorage.setItem("data", JSON.stringify(contactInfo));
 }
 //--------------------------------------------------------------
-

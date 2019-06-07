@@ -1,14 +1,5 @@
 "use strict!";
 
-//Local Storage for Creator Form
-
-//Step 1 Get info from form
-//a. document.getElement
-//b. eventListener
-//c. handler
-//Step 2 Convert data
-//Step 3 Save to local storage
-
 var creatorForm = document.getElementById("creator-form");
 creatorForm.addEventListener("submit", handler);
 
