@@ -47,37 +47,62 @@
     <form>
       <section class="form-creator-one clearfix">
         <fieldset>
+          
           <legend class="creator-form">1. COMIC INFORMATION</legend>
-          <img src="https://placehold.it/265x379/FFF" class="creator-form" />
-          <p class="creator-form">
-            Please upload the cover for this title here (Include option to
-            upload or if possible, drag and drop the image). For best results
-            image should be JPEG or PNG, 1920x1080px and no larger than 2MB.
-          </p>
-          <label for="comic-title" class="creator-form-title">*COMIC BOOK TITLE</label>
-          <input type="text" name="comic-title" size="30" class="creator-form-render" required />
-          <label for="genres">*GENRE</label>
-          <select name="genres" class="creator-form">
-            <option value="action">Action</option>
-            <option value="drama">Drama</option>
-            <option value="thriller">Thriller</option>
-          </select>
-          <label for="genres2">GENRE 2 (OPTIONAL)</label>
-          <select name="genres2" class="creator-form-render">
-            <option value="action">Action</option>
-            <option value="drama">Drama</option>
-            <option value="thriller">Thriller</option>
-          </select>
-          <label for="rating">*SUGGESTED RATING</label>
-          <select name="rating" class="creator-form-render">
-            <option value="M">M</option>
-            <option value="pg13">PG-13</option>
-          </select>
-          <label for="summary">*COMIC SUMMARY</label>
-          <textarea rows="8" cols="50" class="creator-form-render"></textarea>
-          <label for="type">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
-          <input type="radio" name="type" value="oneshot" /> One Shot
-          <input type="radio" name="type" value="series" /> Series
+          <div class="col-one-left">
+              <img src="https://placehold.it/265x379/FFF" class="creator-form" />
+              <p class="creator-form">
+                Please upload the cover for this title here (Include option to
+                upload or if possible, drag and drop the image). For best results
+                image should be JPEG or PNG, 1920x1080px and no larger than 2MB.
+              </p>
+          </div>
+          
+
+          <div class="col-one-right">
+              <label for="comic-title">*COMIC BOOK TITLE</label>
+              <input type="text" name="comic-title" size="30" class="creator-left creator-input" required />
+              <section class="col-left">
+                <section class="col-left clearfix">
+                    <label for="genres" class="creator-col-left genre">*GENRE 1</label>
+                    <select name="genres" class="creator-col-left creator-input clearfix">
+                      <option value="" disabled selected hidden>Select</option>
+                      <option value="action">Action</option>
+                      <option value="drama">Drama</option>
+                      <option value="thriller">Thriller</option>
+                    </select>
+                </section>
+                  
+                  <section class="col-right">
+                      <label for="genres2" class="clearfix">GENRE 2 (OPTIONAL)</label>
+                      <select name="genres2" class="creator-col-left creator-input clearfix">
+                        <option value="" disabled selected hidden>Select</option>
+                        <option value="action">Action</option>
+                        <option value="drama">Drama</option>
+                        <option value="thriller">Thriller</option>
+                      </select>
+                  </section>
+                  
+              
+                  <div>
+                      <label for="rating" class="rating">*SUGGESTED RATING</label>
+                      <select name="rating" class="creator-col-left creator-input">
+                        <option value="" disabled selected hidden>Select</option>
+                        <option value="M">M</option>
+                        <option value="pg13">PG-13</option>
+                      </select>
+                  </div>
+                  
+              
+              
+              
+                  <label for="summary">*COMIC SUMMARY</label>
+                  <textarea rows="8" cols="50" class="creator-form-render creator-input"></textarea>
+                  <label for="type">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
+                  <input type="radio" name="type" value="oneshot" /> One Shot
+                  <input type="radio" name="type" value="series" /> Series
+              </div>
+          
         </fieldset>
       </section>
 
@@ -130,7 +155,7 @@
     </form>
   </section>
 
-  ``<footer class="foot">
+  ``<footer class="foot creator">
     `<div>
       <a target="_blank" href="https://www.instagram.com/alluhwicomics/"><img src="img/instagram.png"
           class="foot" /></a>
