@@ -51,8 +51,10 @@ section.home {
 }
 
 section.about {
-    padding: 0 28.22% 0 7.29%;
+    padding: 0 28.22% 206.39px 7.29%;
     background-color: #454545;
+    line-height: 1.6;
+    
 }
 
 section.private {
@@ -641,6 +643,10 @@ img.mobile {
     width: 258px;
     float: left;
     padding: 25px 0 0 0;
+}
+
+span.about {
+    font-weight: bold;
 }
 
 h1.carousel {
