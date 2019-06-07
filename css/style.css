@@ -564,6 +564,9 @@ section.contact {
     background-color: #383838;
     color: #FFFFFF;
     padding: 75px 0 0 0;
+    border: 5px solid red;
+    width: 1325px;
+    margin: 0 auto;
 }
 
 button.create {
