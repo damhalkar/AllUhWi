@@ -44,6 +44,7 @@
 
 body {
     width: 1920px;
+    color: #383838;
 }
 
 section.home {
@@ -58,11 +59,14 @@ section.about {
 }
 
 section.private {
-    padding: 0 35.05% 0 7.29%;
+    padding: 0 35.05% 127.1px 7.29%;
 }
 
 section.terms {
-    padding: 0 35.05% 0 7.29%;
+    padding: 0 35.05% 184.73px 7.29%;
+    line-height: 1.6;
+    font-family: 'Gill Sans';
+    font-size: 18px;
 }
 
 section.beta {
@@ -158,20 +162,28 @@ section div {
     margin: 50px 0 0 50px;
 }
 
-h3.contact {
-    margin: 40px 0 0 0;
-    font-weight: bold;
-    font-size: 1.1em;
-    font-family: 'GillSans-bold';
-}
-
 h3.private {
     font-family: 'GillSans-bold';
+    font-size: 1.5em;
     margin: 50px 0 20px 0;
 }
 
 p.contact {
     margin: 20px 0 180px 0;
+}
+
+ul.private-links {
+    margin: 0 0 0 20px;
+    font-size: 18px;
+    font-family: 'Gill Sans';
+    line-height: 1.6;
+}
+
+p.private-app {
+    line-height: 1.6;
+    font-family: 'Gill Sans';
+    font-size: 18px;
+    margin: 20px 0 0 0;
 }
 
 p.terms {
@@ -541,9 +553,10 @@ p.foot {
     font-family: 'Gill Sans';
 }
 
-p.private {
-    padding: 0 0 0 56px;
-    margin: 20px 0 20px 0;
+p.private, ul.private {
+    line-height: 1.6;
+    font-family: 'Gill Sans';
+    font-size: 18px;
 }
 
 footer.about {
@@ -647,6 +660,11 @@ img.mobile {
 
 span.about {
     font-weight: bold;
+}
+
+span.terms-contact {
+    font-weight: bold;
+    font-size: 18px;
 }
 
 h1.carousel {
