@@ -332,8 +332,29 @@ label.creator-form {
     width: 50%;
 }
 
-label.creator-form-title {
-    border: 5px solid orange;
+input.creator-input {
+    margin: 15px 0 15px 0;
+    width: 351px;
+}
+
+select.creator-input, textarea.creator-input {
+    margin: 15px 0 15px;
+}
+
+section.col-left {
+    float: left;
+}
+
+section.col-right {
+    float: right;
+}
+
+label.genre {
+    display: block;
+}
+
+label.rating {
+    display: block;
 }
 
 section.form-creator-one {
@@ -351,6 +372,22 @@ section.creator-form-two {
 input.creator-form-render {
     display: block;
     margin: 15px 0 15px 35px;
+}
+
+footer.creator {
+    margin: 50px 0 0 0;
+}
+
+input.creator-left, select.creator-left {
+    display: block;
+}
+
+select.creator-col-left {
+    display: block;
+}
+
+label.creator-col-right {
+    float: right;
 }
 
 label.creator-form-render {
@@ -373,6 +410,22 @@ div.col-two {
     padding: 0 0 50px 0;
 }
 
+div.col-right{
+    float: right;
+}
+
+div.col-one-left {
+    width: 38%;
+    float: left;
+}
+
+div.col-one-right {
+    width: 46%;
+    float: right;
+    padding: 0 0 30px 0;
+}
+
+
 button.creator {
     background-color: #F58400;
     font-size: 21px;
@@ -380,7 +433,7 @@ button.creator {
     border: none;
     color: white;
     padding: 10px  25px 10px 25px;
-    margin: 0 25px 0 0;
+    margin: 0 75px 25px 0;
     float: right; 
 }
 
