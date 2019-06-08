@@ -26,7 +26,8 @@
 <li>As a developer, I would like my code to be dry and well laid out, so it would be easier to collaborate with my colleagues.</li>
 </ul>
 
-<h2>Stretch Goals</h2>
+<h3>Stretch Goals</h3>
 <ul>
 <li>As a reader, I want to read the comic books in an easy-to-read fashion, so I can have an enjoyable experience.</li>
-<li> As a reader, I would like the page to be easy to read on mobile</li>
+<li> As a reader, I would like the page to be easy to read on mobile.</li>
+</ul>
