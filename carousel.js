@@ -3,6 +3,11 @@
 var coverIndex = 0;
 showSlideshow();
 
+mySlidesFolder = [];
+
+
+
+
 function showSlideshow() {
   var i;
   var slides = document.getElementsByClassName("mySlides");
@@ -23,3 +28,10 @@ function showSlideshow() {
   setTimeout(showSlideshow, 3000);
   //document.addEventListener(type,reset)
 }
+
+// function handler (event) {
+//     event.preventDefault
+// }
+
+// var resetPage = document.getElementById();
+// resetPage.addEventListener('animationend',handler)
