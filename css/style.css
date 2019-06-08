@@ -374,16 +374,34 @@ section.col-right {
 label.genre {
     display: block;
     margin: 0 0 20px 0;
-    border: 5px purple solid;
 }
 
 select.genre {
     margin: 0 0 20px 0;
-    border: 5px solid yellow;
 }
 
 label.rating {
     display: block;
+}
+
+div.radio {
+    margin: 15px 0 0 0;
+}
+
+div.radio-two {
+    margin: 0;
+}
+
+label.radio-one {
+    margin: 0 40px 0 0;
+}
+
+select.two {
+    margin: 10px 0 0 0;
+}
+
+select.one {
+    margin: 25px 0 30px 0;
 }
 
 section.form-creator-one {
@@ -696,7 +714,6 @@ button.hide {
     width: 25%;
     padding: 0 20px 30px 20px;
     margin: 0 20px 0 20px;
-    border: 5px solid red;
 }
 
 div.row {

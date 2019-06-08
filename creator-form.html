@@ -66,7 +66,7 @@
             <div class="row">
                 <div class="column">
                   <label for="genres" class="creator-col-left genre">*GENRE 1</label>
-                  <select name="genres" class="creator-col-left creator-input genre">
+                  <select name="genres" class="creator-col-left creator-input genre one">
                     <option value="" disabled selected hidden>Select</option>
                     <option value="action">Action</option>
                     <option value="drama">Drama</option>
@@ -81,8 +81,8 @@
                   </select> 
                 </div>
                 <div class="column">
-                  <label for="genres2" class="clearfix">GENRE 2 (OPTIONAL)</label>
-                  <select name="genres2" class="creator-col-left creator-input">
+                  <label for="genres2" class="two">GENRE 2 (OPTIONAL)</label>
+                  <select name="genres2" class="creator-col-left creator-input two">
                     <option value="" disabled selected hidden>Select</option>
                     <option value="action">Action</option>
                     <option value="drama">Drama</option>
@@ -94,9 +94,16 @@
 
             <label for="summary">*COMIC SUMMARY</label>
             <textarea rows="8" cols="50" class="creator-form-render creator-input"></textarea>
-            <label for="type">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
-            <input type="radio" name="type" value="oneshot" /> One Shot
-            <input type="radio" name="type" value="series" /> Series
+            <label for="type" class="radio-describe">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
+            <div class="radio">
+                <input type="radio" id="one-shot"
+                 name="comic" value="oneshot" class="radio-one">
+                <label for="one-shot" class="radio-one">One-Shot</label>
+            
+                <input type="radio" id="series"
+                 name="comic" value="series" class="radio-two">
+                <label for="series" class="radio-two">Series</label>
+            </div>
           </div>
 
         </fieldset>
@@ -141,8 +148,13 @@
               PUBLISH<p class="question">THIS TITLE ON
                 THE ALLUHWI COMICS PLATFORM?</p>
             </label>
-            <input type="radio" name="legal-right" value="yes" class="creator-radio" /> YES
-            <input type="radio" name="legal-right" value="no" class="creator-radio" /> NO
+            <div class="radio-two">
+                <input type="radio" name="legal-right" value="yes" id="choice-yes" class="creator-radio" />
+                <label for="choice-yes">YES</label>
+                <input type="radio" name="legal-right" value="no" id="choice-no" class="creator-radio" />
+                <label for="choice-no">NO</label>
+            </div>
+            
           </div>
 
         </fieldset>
