@@ -23,4 +23,3 @@ function saveInfo(firstName, lastName, email, message) {
   };
   localStorage.setItem("data", JSON.stringify(contactInfo));
 }
-//--------------------------------------------------------------

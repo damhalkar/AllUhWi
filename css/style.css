@@ -148,9 +148,15 @@ button.navi {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
+nav.clearfix.home {
+    box-shadow: none;
+    background: none;
+}
+
 nav {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     margin: 0;
+    background-color: #FFFFFF;
 }
 
 nav.about {
@@ -159,6 +165,7 @@ nav.about {
 
 nav.home {
     border: none;
+    
 }
 
 section div {
@@ -742,4 +749,33 @@ div.column {
     content: "";
     display: table;
     clear: both;
+}
+
+h1.comic-name {
+    font-family: 'Gotham-bold';
+    color: #FFFFFF;
+    font-size: 58px;
+    width: 187px;
+    height: 43px;
+    text-align: center;
+}
+
+h2.chapter {
+    font-family: 'GillSans-bold';
+    color: #FC941A;
+    text-align: center;
+    font-size: 37px;
+}
+
+img.comic-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1244.15px;
+    height: 1682.2px;
+    margin-bottom: 100px;
+}
+
+body.comic-body {
+    background-color: #383838;
 }
