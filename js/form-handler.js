@@ -9,8 +9,7 @@ function handler(event) {
   document.getElementById("genres");
   document.getElementById("genres2");
   document.getElementById("rating");
-  document.getElementById("summary");
-  document.getElementById("type");
+  document.getElementsByClassName("type");
   document.getElementById("name");
   document.getElementById("email");
   document.getElementById("creator1");
