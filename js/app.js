@@ -1,17 +1,12 @@
 "use strict!";
 
-var button = document.getElementById("contactInfo");
-button.addEventListener("submit", handler);
+var contactForm = document.getElementById("contactInfo");
+contactForm.addEventListener("submit", handler);
 console.log(button);
 
 function handler(event) {
   event.preventDefault();
   console.log(event.target.firstname.value);
-  //assign correct positions
-  document.getElementById("firstname");
-  document.getElementById("lastname");
-  document.getElementById("email");
-  document.getElementById("message");
   var firstname = event.target.firstname.value;
   var lastname = event.target.lastname.value;
   var email = event.target.email.value;
@@ -23,7 +18,7 @@ function saveInfo(firstName, lastName, email, message) {
   var contactInfo = {
     first: firstName,
     last: lastName,
-    email: email,
+    email,
     msg: message
   };
   localStorage.setItem("data", JSON.stringify(contactInfo));
