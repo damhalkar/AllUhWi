@@ -62,45 +62,41 @@
           <div class="col-one-right">
             <label for="comic-title">*COMIC BOOK TITLE</label>
             <input type="text" name="comic-title" size="30" class="creator-left creator-input" required />
-            <section class="col-left">
-              <section class="col-left clearfix">
-                <label for="genres" class="creator-col-left genre">*GENRE 1</label>
-                <select name="genres" class="creator-col-left creator-input clearfix">
-                  <option value="" disabled selected hidden>Select</option>
-                  <option value="action">Action</option>
-                  <option value="drama">Drama</option>
-                  <option value="thriller">Thriller</option>
-                </select>
-              </section>
 
-              <section class="col-right">
-                <label for="genres2" class="clearfix">GENRE 2 (OPTIONAL)</label>
-                <select name="genres2" class="creator-col-left creator-input clearfix">
-                  <option value="" disabled selected hidden>Select</option>
-                  <option value="action">Action</option>
-                  <option value="drama">Drama</option>
-                  <option value="thriller">Thriller</option>
-                </select>
-              </section>
+            <div class="row">
+                <div class="column">
+                  <label for="genres" class="creator-col-left genre">*GENRE 1</label>
+                  <select name="genres" class="creator-col-left creator-input genre">
+                    <option value="" disabled selected hidden>Select</option>
+                    <option value="action">Action</option>
+                    <option value="drama">Drama</option>
+                    <option value="thriller">Thriller</option>
+                  </select>
+                  
+                  <label for="rating" class="rating">*SUGGESTED RATING</label>
+                  <select name="rating" class="creator-col-left creator-input">
+                    <option value="" disabled selected hidden>Select</option>
+                    <option value="M">M</option>
+                    <option value="pg13">PG-13</option>
+                  </select> 
+                </div>
+                <div class="column">
+                  <label for="genres2" class="clearfix">GENRE 2 (OPTIONAL)</label>
+                  <select name="genres2" class="creator-col-left creator-input">
+                    <option value="" disabled selected hidden>Select</option>
+                    <option value="action">Action</option>
+                    <option value="drama">Drama</option>
+                    <option value="thriller">Thriller</option>
+                  </select>
+                </div>
+            </div>
+           
 
-
-              <div>
-                <label for="rating" class="rating">*SUGGESTED RATING</label>
-                <select name="rating" class="creator-col-left creator-input">
-                  <option value="" disabled selected hidden>Select</option>
-                  <option value="M">M</option>
-                  <option value="pg13">PG-13</option>
-                </select>
-              </div>
-
-
-
-
-              <label for="summary">*COMIC SUMMARY</label>
-              <textarea rows="8" cols="50" class="creator-form-render creator-input"></textarea>
-              <label for="type">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
-              <input type="radio" name="type" value="oneshot" /> One Shot
-              <input type="radio" name="type" value="series" /> Series
+            <label for="summary">*COMIC SUMMARY</label>
+            <textarea rows="8" cols="50" class="creator-form-render creator-input"></textarea>
+            <label for="type">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
+            <input type="radio" name="type" value="oneshot" /> One Shot
+            <input type="radio" name="type" value="series" /> Series
           </div>
 
         </fieldset>
@@ -172,5 +168,4 @@
     `<p class="foot">2019 Bolt From The Blue Entertainment, LLC</p>
     `</footer>
 </body>
-
 </html>
