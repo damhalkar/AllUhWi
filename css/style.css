@@ -148,9 +148,15 @@ button.navi {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 
+nav.clearfix.home {
+    box-shadow: none;
+    background: none;
+}
+
 nav {
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
     margin: 0;
+    background-color: #FFFFFF;
 }
 
 nav.about {
@@ -159,6 +165,7 @@ nav.about {
 
 nav.home {
     border: none;
+    
 }
 
 section div {
@@ -261,6 +268,8 @@ img.carousel {
     width: 50%;
     height: 50%;
 }
+
+div.carousel-bg
 
 img.beta {
     display: block;
@@ -422,6 +431,10 @@ section.creator-form-two {
 input.creator-form-render {
     display: block;
     margin: 15px 0 15px 35px;
+}
+
+input.creator-form {
+    padding: 0 0 15px 35px;
 }
 
 footer.creator {
@@ -736,10 +749,72 @@ div.column {
     margin: 0 35px 0 0; 
     padding: 0 20px 25px 0; 
 }
+
+span.foot {
+    padding: 0 3px 0 3px;
+}
   
 /* Clear floats after the columns*/
 .row:after {
     content: "";
     display: table;
     clear: both;
+}
+
+h1.comic-name {
+    font-family: 'Gotham-bold';
+    color: #FFFFFF;
+    font-size: 58px;
+    /* width: 187px;
+    height: 43px; */
+    text-align: center;
+    padding: 60px 0 20px 0;
+}
+
+h2.chapter {
+    font-family: 'GillSans-bold';
+    color: #FC941A;
+    text-align: center;
+    font-size: 37px;
+    padding-bottom: 65px;
+}
+
+img.comic-img {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 1244.15px;
+    height: 1682.2px;
+    margin-bottom: 100px;
+}
+
+body.comic-body {
+    background-color: #383838;
+}
+
+h1.comic-beta {
+    font-family: 'Gotham-bold';
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+h1.comic-beta2 {
+    font-family: 'Gotham-bold';
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 35px;
+    padding-bottom: 30px;
+}
+
+img.comic-beta {
+    height: 100px;
+    width: 258px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+    padding-bottom: 40px;
+
 }
