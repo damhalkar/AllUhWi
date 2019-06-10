@@ -48,17 +48,17 @@
       we’ll respond as soon as possible
     </p>
 
-    <form>
+    <form id="contactInfo">
       <fieldset class="contact-us">
         <label for="firstname" class="contact">FIRST NAME</label>
-        <input type="text" name="firstname" placeholder="Sarah" class="contact" />
+        <input type="text" name="firstname" placeholder="Sarah" id="firstname" class="contact" />
         <label for="lastname" class="contact">LAST NAME</label>
-        <input type="text" name="lastname" placeholder="Connor" class="contact" />
+        <input type="text" name="lastname" placeholder="Connor" id="lastname" class="contact" />
         <label for="emailaddress" class="contact">EMAIL ADDRESS</label>
-        <input type="email" name="emailaddress" placeholder="sarahconnor@gmail.com" class="contact" required />
+        <input type="email" name="emailaddress" placeholder="sarahconnor@gmail.com" id="email" class="contact" required />
         <label for="message" class="contact">MESSAGE</label>
-        <textarea rows="5" cols="75" placeholder="what’s up?" class="contact"></textarea>
-        <button type="button" class="contact">Send Message</button>
+        <textarea rows="5" cols="75" placeholder="what’s up?" id="message" class="contact"></textarea>
+        <button type="submit" class="contact">SEND MESSAGE</button>
       </fieldset>
     </form>
   </section>
@@ -77,6 +77,7 @@
     </div>
     <p class="foot">2019 Bolt From The Blue Entertainment, LLC</p>
   </footer>
+  <script src="js/app.js"></script>
 </body>
 
 </html>
