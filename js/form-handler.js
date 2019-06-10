@@ -5,29 +5,13 @@ creatorForm.addEventListener("submit", handler);
 
 function handler(event) {
   event.preventDefault();
-  document.getElementById("comicTitle");
-  document.getElementById("genres");
-  document.getElementById("genres2");
-  document.getElementById("rating");
-  document.getElementById("summary");
-  document.getElementById("type");
-  document.getElementById("name");
-  document.getElementById("email");
-  document.getElementById("creator1");
-  document.getElementById("creator2");
-  document.getElementById("writer");
-  document.getElementById("penciler");
-  document.getElementById("colourist");
-  document.getElementById("inker");
-  document.getElementById("coverArtist");
-  document.getElementById("letterer");
-  document.getElementById("legalRight");
   var title = event.target.comicTitle.value;
   var genre1 = event.target.genres.value;
   var genre2 = event.target.genres2.value;
   var rating = event.target.rating.value;
   var summary = event.target.summary.value;
-  var type = event.target.type.value;
+  var oneShot = event.target["one-shot"].value;
+  var series = event.target.series.value;
   var name = event.target.name.value;
   var email = event.target.email.value;
   var creator1 = event.target.creator1.value;
@@ -38,14 +22,15 @@ function handler(event) {
   var inker = event.target.inker.value;
   var coverArtist = event.target.coverArtist.value;
   var letterer = event.target.letterer.value;
-  var legalRight = event.target.legalRight.value;
+  var legalRight = document.creatorForm["legal-right"].value;
   saveInfo(
     title,
     genre1,
     genre2,
     rating,
     summary,
-    type,
+    oneShot,
+    series,
     name,
     email,
     creator1,
@@ -66,7 +51,8 @@ function saveInfo(
   genres2,
   rating,
   summary,
-  type,
+  oneShot,
+  series,
   name,
   email,
   creator1,
@@ -83,20 +69,21 @@ function saveInfo(
     title: comicTitle,
     genre_1: genres1,
     genre_2: genres2,
-    rating: rating,
-    summary: summary,
-    type: type,
-    name: name,
-    email: email,
+    rating,
+    summary,
+    oneShot,
+    series,
+    name,
+    email,
     creator_1: creator1,
     creator_2: creator2,
-    writer: writer,
-    penciler: penciler,
-    colourist: colourist,
-    inker: inker,
+    writer,
+    penciler,
+    colourist,
+    inker,
     cover_artist: coverArtist,
-    letterer: letterer,
-    legal_right: legalRight
+    letterer,
+    legalRight
   };
   localStorage.setItem("creator-form", JSON.stringify(creatorInfo));
 }

@@ -43,7 +43,7 @@
   <h1 class="creator-form">PLEASE FILL OUT THE FORM BELOW</h1>
   <section class="creator-form clearfix">
 
-    <form>
+    <form name="creatorForm" id="creator-form">
       <section class="form-creator-one clearfix">
         <fieldset>
 
@@ -60,28 +60,28 @@
 
           <div class="col-one-right">
             <label for="comic-title">*COMIC BOOK TITLE</label>
-            <input type="text" name="comic-title" size="30" class="creator-left creator-input" required />
+            <input type="text" name="comic-title" size="30" id="comicTitle" class="creator-left creator-input" required />
 
             <div class="row">
                 <div class="column">
                   <label for="genres" class="creator-col-left genre">*GENRE 1</label>
-                  <select name="genres" class="creator-col-left creator-input genre one">
+                  <select name="genres" id="genres" class="creator-col-left creator-input genre one">
                     <option value="" disabled selected hidden>Select</option>
                     <option value="action">Action</option>
                     <option value="drama">Drama</option>
                     <option value="thriller">Thriller</option>
                   </select>
-                  
+
                   <label for="rating" class="rating">*SUGGESTED RATING</label>
-                  <select name="rating" class="creator-col-left creator-input">
+                  <select name="rating" id="rating" class="creator-col-left creator-input">
                     <option value="" disabled selected hidden>Select</option>
                     <option value="M">M</option>
                     <option value="pg13">PG-13</option>
-                  </select> 
+                  </select>
                 </div>
                 <div class="column">
                   <label for="genres2" class="two">GENRE 2 (OPTIONAL)</label>
-                  <select name="genres2" class="creator-col-left creator-input two">
+                  <select name="genres2" id="genres2" class="creator-col-left creator-input two">
                     <option value="" disabled selected hidden>Select</option>
                     <option value="action">Action</option>
                     <option value="drama">Drama</option>
@@ -92,16 +92,17 @@
            
 
             <label for="summary">*COMIC SUMMARY</label>
-            <textarea rows="8" cols="50" class="creator-form-render creator-input"></textarea>
+            <textarea rows="8" cols="50" id="summary" class="creator-form-render creator-input"></textarea>
             <label for="type" class="radio-describe">*IS THIS A ONE SHOT OR PART OF A SERIES:</label>
             <div class="radio">
                 <input type="radio" id="one-shot"
-                 name="comic" value="oneshot" class="radio-one">
-                <label for="one-shot" class="radio-one">One-Shot</label>
+                 name="comic" value="oneshot"  class="radio-one, type" >
+                <label for="one-shot" class="radio-one, type">One-Shot</label>
             
                 <input type="radio" id="series"
                  name="comic" value="series" class="radio-two">
                 <label for="series" class="radio-two">Series</label>
+              </div>
             </div>
           </div>
 
@@ -113,36 +114,36 @@
           <legend class="creator-form-two">2. COMIC TEAM INFORMATION</legend>
           <div class="col-one clearfix">
             <label for="name" class="creator-form-render">*CONTACT NAME</label>
-            <input type="text" name="name" class="creator-form-render" />
+            <input type="text" name="name" id="name" class="creator-form-render" />
 
             <label for="creator1" class="creator-form-render">*CREATOR 1</label>
-            <input type="text" name="creator1" class="creator-form-render" />
+            <input type="text" name="creator1" id="creator1" class="creator-form-render" />
 
             <label for="writer" class="creator-form-render">*WRITER</label>
-            <input type="text" name="writer" class="creator-form-render" />
+            <input type="text" name="writer" id="writer" class="creator-form-render" />
           </div>
 
           <div class="col-two clearfix">
             <label for="email" class="creator-form-render">*CONTACT EMAIL</label>
-            <input type="email" name="email" class="creator-form-render" />
+            <input type="email" name="email" id="email" class="creator-form-render" />
 
             <label for="creator2" class="creator-form-render">*CREATOR 2 (OPTIONAL)</label>
-            <input type="text" name="creator2" class="creator-form-render" />
+            <input type="text" name="creator2" id="creator2" class="creator-form-render" />
 
             <label for="penciler" class="creator-form-render">*PENCILER</label>
-            <input type="text" name="penciler" class="creator-form-render" />
+            <input type="text" name="penciler" id="penciler" class="creator-form-render" />
           </div>
 
           <div>
             <h2 class="creator-form-render creator-form">ADDITIONAL INFORMATION</h2>
             <label for="colourist" class="creator-form-render">COLOURIST</label>
-            <input type="text" name="colourist" class="creator-form-render" />
+            <input type="text" name="colourist" id="colourist" class="creator-form-render" />
             <label for="inker" class="creator-form-render">INKER</label>
-            <input type="text" name="inker" class="creator-form-render" />
+            <input type="text" name="inker" id="inker" class="creator-form-render" />
             <label for="cover-artist" class="creator-form-render">COVER ARTIST</label>
-            <input type="text" name="cover-artist" class="creator-form-render" />
+            <input type="text" name="cover-artist" id="coverArtist" class="creator-form-render" />
             <label for="letterer" class="creator-form-render">LETTERER</label>
-            <input type="text" name="letterer" class="creator-form-render" />
+            <input type="text" name="letterer" id="letterer" class="creator-form-render" />
             <label for="legal-right" class="creator-form-render question">*DO YOU OWN AND/OR HAVE THE LEGAL RIGHT TO
               PUBLISH<p class="question">THIS TITLE ON
                 THE ALLUHWI COMICS PLATFORM?</p>
@@ -152,6 +153,7 @@
                 <label for="choice-yes">YES</label>
                 <input type="radio" name="legal-right" value="no" id="choice-no" class="creator-radio" />
                 <label for="choice-no">NO</label>
+              </div>
             </div>
             
           </div>
