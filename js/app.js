@@ -2,7 +2,6 @@
 
 var contactForm = document.getElementById("contactInfo");
 contactForm.addEventListener("submit", handler);
-console.log(button);
 
 function handler(event) {
   event.preventDefault();
@@ -23,4 +22,14 @@ function saveInfo(firstName, lastName, email, message) {
   };
   localStorage.setItem("data", JSON.stringify(contactInfo));
 }
-//--------------------------------------------------------------
+
+// Show/Hide button
+
+function myFunction() {
+    var hideContent = document.getElementById("hide");
+      if (hideContent.style.display === "none") {
+        hideContent.style.display = "block";
+      } else {
+        hideContent.style.display = "none";
+      }
+}
